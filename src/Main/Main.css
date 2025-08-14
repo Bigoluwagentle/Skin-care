@@ -215,6 +215,7 @@
             flex-direction: column;
             > nav{
                 margin-bottom: 50px;
+                width: 65%;
                 > p{
                     width: 100%;
                 }

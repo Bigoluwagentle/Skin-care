@@ -174,7 +174,7 @@
                 width: 50%;
                 nav{
                     > div{
-                        min-width: 50%;
+                        width: 70%;
                     }
                 }
             }

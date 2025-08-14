@@ -162,13 +162,19 @@
         }
     }
 }
-
+.ham{
+    display: none;
+}
 @media screen and (max-width: 888px){
     #header{
         .header{
             > header{
                 > div{
                     display: none;
+                }
+                > img.ham{
+                    width: 30px;
+                    display: inline-block;
                 }
             }
             .content{

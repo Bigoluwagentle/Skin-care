@@ -11,6 +11,7 @@ import Vector3 from "../img/Vector (3).svg";
 import Vector2 from "../img/Vector (2).svg";
 import Vector1 from "../img/Vector (1).svg";
 import Group from "../img/Group.svg";
+import Hamburger from "../img/icon-hamburger.svg";
 function Header(){
     return(
         <div id="header">
@@ -36,6 +37,7 @@ function Header(){
                             <img src={Arrow} alt="" />
                         </div>
                     </div>
+                    <img src={Hamburger} className="ham" alt="" />
                 </header>
 
                 <div className="content">
